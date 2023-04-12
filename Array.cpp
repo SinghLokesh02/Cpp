@@ -13,16 +13,21 @@ int main()
     // int arr[size];
 
     /*
+
     Assigning the value in array
     arr[0] = 1
     arr[1] = 2;
     arr[2] = 3;
-    arr[3] = 4;
-    arr[4] = 5;
+
+
+    Updating array elements Value 
+    arr[0] = 3; this given value override the previous value of the array element
+    arr[1] = 1;
 
     Accessing the value of array
     cout<<arr[0];
     cout<<arr[1];
+
     */
 
     // Here we are going take Input from User
