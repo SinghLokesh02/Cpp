@@ -9,7 +9,6 @@ declaration of Variable
 datatype variable_name;
 
 Ex:- int a; Initialization of Variable
-
 a = 10; Assigning value to a variable
 
 int a = 10; Initialization and assigning of value at the same time to the variable
