@@ -4,32 +4,47 @@ The building block of C++ that leads to Object-Oriented programming is a Class. 
 Object
 
 An Object is an identifiable entity with some characteristics and behavior. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
-
+// Data Member -> Datatypes (int ,char,float,double,bool,long)
+// Memeber function -> function
 */
 // Layman Program of C++
 #include <bits/stdc++.h>
 using namespace std;
-class Student // Creating Class
+class student // Starting of Class
 {
-
-public:
-    string name; // data member of Class
-    int marks, roll;
-    void display() // Member Function
+    public:
+    int marks;
+    string name;
+    string name1 = "lokesh1";
+    
+    student display() // default
     {
-        cout << "Name : " << name << " "
-             << "Marks : " << marks << " "
-             << "Roll no : " << roll << endl;
+        cout << "The total marks of student is : " << marks << endl;
+        cout << "The name of student is : " << name << endl;
+        
     }
-};
+}; //  End of Class
 
 int main()
 {
-    Student lokesh; // Student object
-    lokesh.name = "Lokesh Singh";
+    student ayush,lokesh,deevesh;// Creating object ->ayush,lokesh,deevesh
+    ayush.marks = 100;
+    ayush.name = "Ayush";
+
     lokesh.marks = 90;
-    lokesh.roll = 4;
+    lokesh.name = "Lokesh";
+
+    deevesh.marks = 80;
+    deevesh.name = "Deevesh";
+
+    ayush.display();
+    cout<<endl;
+
     lokesh.display();
+    cout<<endl;
+
+    deevesh.display();
+    cout<<endl;
 
     return 0;
 }

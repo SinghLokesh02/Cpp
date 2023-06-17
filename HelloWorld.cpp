@@ -2,6 +2,8 @@
 /*
 #include is preprocessor directive which tells the compiler to include the code from specified file like we have "#include<iostream>" means include the code from the iostream file like all the functions etc.
 */
+//
+
 using namespace std;
 /*
 In C++, the "using" keyword is used to declare a using declaration or a using directive, which allows you to use names from a namespace without having to qualify them with the namespace name every time.
@@ -10,6 +12,7 @@ The "std" namespace in C++ contains a lot of useful functions and classes for pe
 
 For example, if you want to use the "cout" and "endl" functions from the "std" namespace in your C++ program, you would normally have to use them like this:
 */
+ 
 int main()
 {
     /*
@@ -18,5 +21,8 @@ int main()
     The program code that you write in the "main" function typically consists of a sequence of statements that perform some computation or I/O operation. When the "main" function finishes executing, it should return an integer value to indicate whether the program completed successfully or not. By convention, a return value of 0 indicates successful completion, and a non-zero value indicates an error.
     */
     cout << "Lokesh Singh";
+
     return 0;
 }
+
+ 
