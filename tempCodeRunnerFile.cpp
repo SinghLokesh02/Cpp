@@ -1,1 +1,0 @@
- cout<<"The value of a is : "<<a<<endl;
