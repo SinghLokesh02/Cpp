@@ -12,22 +12,21 @@ An Object is an identifiable entity with some characteristics and behavior. An O
 using namespace std;
 class student // Starting of Class
 {
-    public:
+public:
     int marks;
     string name;
     string name1 = "lokesh1";
-    
+
     student display() // default
     {
         cout << "The total marks of student is : " << marks << endl;
         cout << "The name of student is : " << name << endl;
-        
     }
 }; //  End of Class
 
 int main()
 {
-    student ayush,lokesh,deevesh;// Creating object ->ayush,lokesh,deevesh
+    student ayush, lokesh, deevesh; // Creating object ->ayush,lokesh,deevesh
     ayush.marks = 100;
     ayush.name = "Ayush";
 
@@ -38,13 +37,13 @@ int main()
     deevesh.name = "Deevesh";
 
     ayush.display();
-    cout<<endl;
+    cout << endl;
 
     lokesh.display();
-    cout<<endl;
+    cout << endl;
 
     deevesh.display();
-    cout<<endl;
+    cout << endl;
 
     return 0;
 }
