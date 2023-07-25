@@ -50,11 +50,12 @@ void insertAtTail(node *&head, int data)
 }
 
 // Function to add data at the particular index
-void insertAtTail(node *&head, int data, int index)
+void insertAtIndex(node *&head, int data, int index)
 {
     node *temp = new node(data);
     if (index == 0)
     {
+        temp->next = head;
         head = temp;
         return;
     }
@@ -105,8 +106,8 @@ int main()
     insertAtTail(head, 89);
     insertAtTail(head, 189);
     print(head);
-    insertAtTail(head, 189, 1);
-    insertAtTail(head, 453, 5);
+    
+    insertAtIndex(head, 453, 0);
     print(head);
     if (search(head, 89))
     {
