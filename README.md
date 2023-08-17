@@ -1,6 +1,7 @@
 # C++ Programming Concepts Repository
 
-![C++ Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png)
+![C++ Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/200px-ISO_C%2B%2B_Logo.svg.png)
+
 
 Welcome to the C++ Programming Concepts Repository! This repository serves as an extensive guide to mastering fundamental C++ programming concepts. Whether you're a newcomer striving to grasp the basics or an experienced coder brushing up on your knowledge, you'll find valuable insights here.
 
