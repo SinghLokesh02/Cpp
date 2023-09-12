@@ -1,4 +1,4 @@
-//Introduction to friend Function in CPP
+// Introduction to friend Function in CPP
 /*
   A friend function of a class is defined outside that class' scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.
 
@@ -8,27 +8,36 @@
 
 */
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-class box{
+class box
+{
     int length = 100;
-    public:
-    int breadth = 20;
-    public:
-    friend void display(box ob); 
 
+public:
+    int breadth = 20;
+
+public:
+    friend void display(box ob);
+    friend void show_data(box obj);
 };
 
-void display(box ob){
-        cout<<"The breadth of the box is : "<<ob.length<<endl;
-    }
+void display(box ob)
+{
+    cout<<"\nThis is Example of Friend Function\n"<<endl;
+    cout<<"The area of the box is : "<<ob.length*ob.breadth<<endl;
+}
+
+void show_data(box obj)
+{
+     cout << "The breadth of the box is : " << obj.length << endl;
+     cout << "The breadth of the box is : " << obj.length << endl;
+}
+
 int main()
 {
     box box1;
     display(box1);
-     
-
-return 0;
+    show_data(box1);
+    return 0;
 }
- 
-
