@@ -51,3 +51,32 @@ int main()
     cout << number << endl;
     return 0;
 }
+
+
+
+// Example 2 of Call by Reference
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    // call by Value
+    cout<<"Call by Value"<<endl;
+    int x = 50;
+    int y = x;
+    cout << "x = " << x << ", y = " << y << endl;
+    x += 10;
+    cout<< "x = " << x << ", y = " <<y << endl;
+
+    // call by Reference
+
+    cout<<"\nCall by Reference"<<endl;
+ 
+    int *z = &x;
+    cout << "x = " << x << ", y = " << y << ", z = " << *z << endl;
+
+    *z += 10;
+    cout<< "x = " << x << ", y = " << y << ", z = " << *z << endl;
+
+    
+}
